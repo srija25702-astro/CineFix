@@ -1,0 +1,12 @@
+package com.srija.cinefix.data.dto;
+
+
+public class Admin extends User{
+    private String role = "supervisor";
+    public Admin(String username, String email, String password) {
+        super(username,email,password);
+    }
+    public String getRole(){
+        return role;
+    }
+}
